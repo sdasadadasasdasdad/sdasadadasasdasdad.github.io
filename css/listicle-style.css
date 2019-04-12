@@ -1,0 +1,114 @@
+/**
+ TODO(you): Write the CSS necessary to complete HW1!
+*/
+body {
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+br {
+    line-height: 20px;
+}
+
+hr {
+    border:0;
+    /* padding-top: 10px; */
+    /* border-top: 10px; */
+    background-color: #e6e6e6;
+    height: 2px;
+}
+
+
+.img_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_word {
+    /* display: flex; */
+    max-width: 780px;
+    position: absolute;
+    font-size: 36px;
+    font-family:'Roboto Slab', serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+
+}
+
+.profile_img {
+    margin-top: -50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.update_date {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.articles {
+    margin: auto;
+    width: 66.7%;
+}
+
+.article {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.number {
+    margin-left: -80px;
+    padding-right: 40px;
+    font-size: 36px;
+    color: rgb(0, 0, 0, 0.25);
+}
+
+.heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.link {
+    color: #42b4d6;
+}
+
+.text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.recommendation {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img_text {
+    width: 100%;
+}
